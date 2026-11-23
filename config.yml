@@ -1,0 +1,15 @@
+# Damage in half-hearts (HP). 12 = 6 hearts.
+damage: 12.0
+
+# How fast the dash is (blocks per tick) and how long it lasts (ticks).
+dash-speed: 1.6
+dash-ticks: 7
+
+# Cooldown between dashes, in seconds.
+cooldown-seconds: 60.0
+
+# Hitbox expansion around the player while dashing (blocks).
+hit-radius: 1.2
+
+# Players must be crouching to dash.
+require-sneak: true

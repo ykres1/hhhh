@@ -1,0 +1,16 @@
+name: SpearDash
+version: 1.0.0
+main: dev.speardash.SpearDash
+api-version: '1.21'
+description: Adds a Dash Spear item. Crouch + right-click to dash through enemies.
+
+commands:
+  speardash:
+    description: Give yourself or another player the Dash Spear
+    usage: /speardash [player]
+    aliases: [dashspear]
+
+permissions:
+  speardash.give:
+    description: Allows giving out the Dash Spear
+    default: op
